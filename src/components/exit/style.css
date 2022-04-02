@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+.exit {
+  background: #f8f9fa;
+  border-left: 4px solid #e9ecef;
+  border-radius: 4px 0px 0px 4px;
+  height: 87px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.exit:hover {
+  box-shadow: 7px 8px 5px 3px #bdc0c4;
+}
+
+.salary {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  align-content: space-around;
+  color: black;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.salary > h3 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+  margin-left: 10px;
+  margin-bottom: 8px;
+  margin-top: 14px;
+}
+
+.salary > span {
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #868e96;
+  margin-bottom: 10px;
+}
+
+.priceAndDelete {
+  display: flex;
+}
+
+.priceAndDelete > span {
+  margin: 18px 62px 47px 0;
+  color: #212529;
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}

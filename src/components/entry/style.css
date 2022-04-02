@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+.entry {
+  background: #f8f9fa;
+  border-left: 4px solid #03b898;
+  border-radius: 4px 0px 0px 4px;
+  height: 87px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.entry:hover {
+  box-shadow: 7px 8px 5px 3px #bdc0c4;
+}
+
+.salary {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  align-content: space-around;
+  color: black;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.salary > h3 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+  margin-left: 10px;
+  margin-bottom: 8px;
+  margin-top: 14px;
+}
+
+.salary > span {
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #868e96;
+  margin-bottom: 10px;
+}
+
+.priceAndDelete {
+  display: flex;
+}
+
+.priceAndDelete > span {
+  margin: 20px 23px 47px 0;
+  color: #212529;
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+.btnDelete {
+  background-image: url("https://i.imgur.com/5CoNdwR.png");
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  width: 22px;
+  height: 22px;
+  border: none;
+  margin-top: 32px;
+}
+
+.btnDelete:hover {
+  background-image: url("https://i.imgur.com/frSKydo.png");
+  cursor: pointer;
+}

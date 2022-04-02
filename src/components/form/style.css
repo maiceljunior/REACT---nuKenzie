@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 330px;
+  height: 351px;
+  margin-top: 39px;
+  margin-left: 31px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #e9ecef;
+}
+
+label {
+  color: #212529;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.valueAndType {
+  display: flex;
+  justify-content: space-between;
+}
+
+.valueOne {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 24.5px;
+}
+
+.valueOne > span {
+  color: #868e96;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.valueOne > input {
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 294px;
+  height: 52.8px;
+  padding: 20px;
+  margin: 5px 0 5px 0;
+}
+
+.valueTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 24.5px;
+}
+
+.valueTwo > input {
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 108px;
+  height: 48px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.valueTwo > img {
+  position: absolute;
+  margin-top: 37px;
+  margin-left: 70px;
+}
+
+.valueTree {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24.5px;
+}
+
+.valueTree > select {
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  color: #868e96;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 130px;
+  height: 48px;
+  padding: 6px;
+}
+
+.btnRegister {
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 13px 20px;
+  width: 314px;
+  height: 48px;
+  align-self: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.btnRegister:hover {
+  background: #e9ecef;
+  border: 2px solid #e9ecef;
+  color: black;
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 363px;
+    height: 351px;
+    margin-top: 39px;
+    margin-left: 200px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+  }
+
+  label {
+    color: #212529;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .valueAndType {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .valueOne {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 24.5px;
+  }
+
+  .valueOne > span {
+    color: #868e96;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .valueOne > input {
+    background: #f8f9fa;
+    border: 2px solid #f8f9fa;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 294px;
+    height: 52.8px;
+    padding: 20px;
+    margin: 5px 0 5px 0;
+  }
+
+  .valueTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 24.5px;
+  }
+
+  .valueTwo > input {
+    background: #f8f9fa;
+    border: 2px solid #f8f9fa;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 108px;
+    height: 48px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .valueTwo > img {
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 70px;
+  }
+
+  .valueTree {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24.5px;
+  }
+
+  .valueTree > select {
+    background: #f8f9fa;
+    border: 2px solid #f8f9fa;
+    color: #868e96;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 130px;
+    height: 48px;
+    padding: 6px;
+  }
+
+  .btnRegister {
+    background: #fd377e;
+    border: 2px solid #fd377e;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 13px 20px;
+    width: 314px;
+    height: 48px;
+    align-self: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+  }
+
+  .btnRegister:hover {
+    background: #e9ecef;
+    border: 2px solid #e9ecef;
+    color: black;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+.formAndList {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.list {
+  width: 365px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+  margin-top: 5px;
+}
+
+.resume {
+  color: #212529;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.headerList {
+  display: flex;
+  background-color: transparent;
+  box-shadow: none;
+  margin-left: 23px;
+  margin-top: 14px;
+}
+
+.all {
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 15px;
+  width: 69px;
+  margin-right: 10px;
+  color: black;
+}
+
+.Entry {
+  width: 87px;
+  border-radius: 8px;
+  padding: 15px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.Leave {
+  width: 89px;
+  border-radius: 8px;
+  padding: 15px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.all:hover {
+  cursor: pointer;
+  background: #fd377e;
+  border: 1.4px solid #fd377e;
+  color: white;
+}
+
+.Entry:hover {
+  cursor: pointer;
+  background: #fd377e;
+  border: 1.4px solid #fd377e;
+  color: white;
+}
+
+.Leave:hover {
+  cursor: pointer;
+  background: #fd377e;
+  border: 1.4px solid #fd377e;
+  color: white;
+}
+
+.ulList {
+  margin: 0;
+  padding: 0;
+  margin-left: 23px;
+  margin-top: 12px;
+}
+
+.buttonsList {
+  display: none;
+}
+
+@media (min-width: 1074px) {
+  .formAndList {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-between;
+  }
+
+  .list {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    margin-top: 5px;
+  }
+
+  .resume {
+    color: #212529;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .headerList {
+    display: flex;
+    background-color: transparent;
+    box-shadow: none;
+    margin-left: 23px;
+    margin-top: 14px;
+  }
+
+  .all {
+    background: #e9ecef;
+    border: 1.4px solid #e9ecef;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 15px;
+    width: 69px;
+    margin-right: 10px;
+    color: black;
+  }
+
+  .Entry {
+    width: 87px;
+    border-radius: 8px;
+    padding: 15px;
+    background: #e9ecef;
+    border: 1.4px solid #e9ecef;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+
+  .Leave {
+    width: 89px;
+    border-radius: 8px;
+    padding: 15px;
+    background: #e9ecef;
+    border: 1.4px solid #e9ecef;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+
+  .all:hover {
+    cursor: pointer;
+    background: #fd377e;
+    border: 1.4px solid #fd377e;
+    color: white;
+  }
+
+  .Entry:hover {
+    cursor: pointer;
+    background: #fd377e;
+    border: 1.4px solid #fd377e;
+    color: white;
+  }
+
+  .Leave:hover {
+    cursor: pointer;
+    background: #fd377e;
+    border: 1.4px solid #fd377e;
+    color: white;
+  }
+
+  .ulList {
+    margin: 0;
+    padding: 0;
+    margin-left: 23px;
+    margin-top: 12px;
+  }
+}

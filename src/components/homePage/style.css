@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+.nuKenzieOne {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 220px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.nuKenzieOne > img {
+  margin-left: 6px;
+  width: 122.68px;
+  height: 19.53px;
+  text-align: initial;
+}
+
+.nuKenzieOne > h2 {
+  text-align: initial;
+  font-family: "Nunito", sans-serif;
+}
+
+.nuKenzieOne > span {
+  margin-bottom: 32px;
+  margin-top: -10px;
+  font-size: 16px;
+}
+
+.nuKenzieTwo {
+  margin-left: 0px;
+}
+
+.nuKenzieTwo > img {
+  width: 300px;
+}
+
+@media (min-width: 946px) {
+  .nuKenzieOne {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    margin-right: 20px;
+  }
+
+  .nuKenzieOne > img {
+    margin-left: 6px;
+    width: 122.68px;
+    height: 19.53px;
+    text-align: initial;
+  }
+
+  .nuKenzieOne > h2 {
+    text-align: initial;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .nuKenzieOne > span {
+    margin-bottom: 32px;
+    margin-top: -10px;
+    font-size: 16px;
+  }
+
+  .nuKenzieTwo {
+    margin-left: 85px;
+  }
+
+  .nuKenzieTwo > img {
+    width: 400px;
+  }
+}
