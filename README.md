@@ -1,4 +1,4 @@
-# NuKenzie ~ NuBank Cover.
+# 💰 NuKenzie ~ NuBank Cover.
 
 ### 🇧🇷 Primeiro projeto feito no react, o projeto consiste em um website de controle financeiro, onde é possível registrar uma entrada ou uma despesa, o valor total é somado apenas nas entradas.
 
