@@ -1,7 +1,7 @@
 # 💰 NuKenzie ~ NuBank Cover.
 
-### 🇧🇷 Primeiro projeto feito no react, o projeto consiste em um website de controle financeiro, onde é possível registrar uma entrada ou uma despesa, o valor total é somado apenas nas entradas.
+### 🇧🇷 Primeiro projeto feito no react, o projeto consiste em um website de controle financeiro, onde é possível registrar uma entrada ou uma despesa, o valor total é somado de acordo com o saldo.
 
-### 🇺🇸 First project done in react, it consists of a financial control project, where it is possible to register an entry or an expense, the total value is added only in the positive entries.
+### 🇺🇸 First project done in react, the project consists of a financial control website, where it is possible to register an entry or an expense, the total amount is added up according to the balance.
 
-### webSite Link ~> https://nu-kenzie-react-app.vercel.app/
+### webSite Link ~> https://react-nu-kenzie.vercel.app
