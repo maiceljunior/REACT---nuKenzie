@@ -7,7 +7,7 @@ export const Price = ({ listTransactions }) => {
         const valorCadastros = []
 
         listTransactions.forEach((cadastros) => {
-            if (cadastros.tipo === "Entrada" && cadastros.valor > 0) {
+            if (cadastros.valor) {
                 valorCadastros.push(parseInt(cadastros.valor))
             }
         })
@@ -25,7 +25,7 @@ export const Price = ({ listTransactions }) => {
         <div className="containerPrice">
             <div className="priceAll">
                 <h2>Valor total:</h2>
-                <span>O valor se refere as entradas</span>
+                <span>O valor se refere ao saldo</span>
             </div>
 
             <span className="price">${priceSome()}</span>

@@ -7,7 +7,7 @@ export const Entry = ({ listTransactions, remove }) => {
         const cadastroEntradas = []
 
         listTransactions.forEach((cadastro) => {
-            if (cadastro.tipo === "Entrada" && cadastro.valor > 0) {
+            if (cadastro.tipo === "Entrada") {
                 cadastroEntradas.push(cadastro)
             }
         })

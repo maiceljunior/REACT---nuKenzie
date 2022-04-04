@@ -8,7 +8,7 @@ export const Exit = ({ listTransactions, remove }) => {
         const cadastroDespesas = []
 
         listTransactions.forEach((cadastro) => {
-            if (cadastro.tipo === "Despesa" && cadastro.valor !== "") {
+            if (cadastro.tipo === "Despesa") {
                 cadastroDespesas.push(cadastro)
             }
         })

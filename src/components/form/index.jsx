@@ -12,8 +12,17 @@ export const Form = ({ listTransactions, setListTransactions }) => {
     function addTodo(input, select, value) {
         const infos = { descricao: input, valor: value, tipo: select }
 
-        setListTransactions([...listTransactions, infos]);
+        if (infos.tipo === "Despesa" && infoValue < 0) {
+            setListTransactions([...listTransactions, infos]);
+
+        } else if (infos.tipo === "Entrada" && infoValue > 0) {
+            setListTransactions([...listTransactions, infos]);
+        } else {
+            alert("Na entrada apenas numeros positivos e na saida apenas numeros negativos!")
+        }
+
     }
+
 
     return (
         <form onSubmit={(event) => { event.preventDefault() }}>
